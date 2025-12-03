@@ -2303,12 +2303,283 @@
 				)
 			)
 		)
+		(symbol "rhinocerose-interface:Alps-Slide-Potentiometer-60mm-RS6011SP6003"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR"
+				(at 4.826 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "Alps-Slide-Potentiometer-60mm-RS6011SP6003"
+				(at 4.826 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "rhinocerose-pots:Alps-Slide-Pot-60mm-RS6011SP6003"
+				(at 49.53 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RS6011P-1524911.pdf"
+				(at 49.53 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Potentiometers Single Unit, 60mm Vertical Type"
+				(at 4.318 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7"
+				(at 49.53 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "688-RS6011SP6003"
+				(at 49.53 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS6011SP6003?qs=3cOf6TWd2rbyy41GF81woQ%3D%3D"
+				(at 49.53 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 49.53 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RS6011SP6003"
+				(at 49.53 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Alps-Slide-Potentiometer-60mm-RS6011SP6003_1_1"
+				(rectangle
+					(start 5.08 6.35)
+					(end 29.21 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 2.54 180)
+					(length 5.08)
+					(name "LUG_TERMINAL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 0 180)
+					(length 5.08)
+					(name "LUG_TERMINAL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -2.54 180)
+					(length 5.08)
+					(name "LUG_TERMINAL_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -5.08 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -7.62 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 129.54 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06a7b13e-6119-42a1-ad46-8a1e90a10f26")
+	)
+	(junction
+		(at 82.55 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be33fbb-95c6-402e-a768-cbaf304b93e6")
+	)
+	(junction
+		(at 82.55 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "234995d4-a441-4d06-a134-4e27061f3c45")
 	)
 	(junction
 		(at 146.05 78.74)
@@ -2329,10 +2600,28 @@
 		(uuid "5df03138-1baa-4d9b-ab9b-6148b0f1ae58")
 	)
 	(junction
+		(at 109.22 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b71afe-e3ea-4d31-a2a8-a7a6ac914a88")
+	)
+	(junction
 		(at 137.16 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7388a570-eb73-4919-be18-570d6a63c792")
+	)
+	(junction
+		(at 153.67 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e32c4b2-a977-402d-a170-688c91e7a8df")
+	)
+	(junction
+		(at 109.22 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ef34755-69f2-457b-8020-b07fa4618a0e")
 	)
 	(junction
 		(at 161.29 68.58)
@@ -2341,16 +2630,58 @@
 		(uuid "8f962281-eed7-43c7-ab8b-cf5813b524f5")
 	)
 	(junction
+		(at 153.67 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fd0e3b9-81f7-4e02-bd70-fb3cb04c33c7")
+	)
+	(junction
+		(at 82.55 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9346de02-1604-46f9-9169-c5f14711ba23")
+	)
+	(junction
+		(at 82.55 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98988963-eeeb-4ee3-addf-68792080c0c5")
+	)
+	(junction
+		(at 109.22 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b66c8f1a-b526-43f5-a108-4f5463eb9fcc")
+	)
+	(junction
 		(at 43.18 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8955b89-d7ac-40b3-9ca1-729341163ede")
 	)
 	(junction
+		(at 153.67 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df712857-934b-4c88-9466-de17ae754935")
+	)
+	(junction
 		(at 153.67 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e462c1c3-d0de-4985-a6dd-87850d55574a")
+	)
+	(junction
+		(at 109.22 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5015a32-a48c-4962-8d71-2115ac4f13ce")
+	)
+	(junction
+		(at 153.67 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eae060c2-2fc4-4f64-b928-d0024b37eee8")
 	)
 	(junction
 		(at 43.18 69.85)
@@ -2380,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 138.43) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204e8b08-7e50-4afa-abb0-3f052c12fad5")
+	)
+	(wire
+		(pts
 			(xy 161.29 78.74) (xy 153.67 78.74)
 		)
 		(stroke
@@ -2400,6 +2741,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 148.59) (xy 48.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6a8d57-22a9-415e-8aff-939a8236eac5")
+	)
+	(wire
+		(pts
 			(xy 146.05 78.74) (xy 146.05 80.01)
 		)
 		(stroke
@@ -2407,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "2f460ae8-e3a4-450f-b0d4-ccab6bcf74fb")
+	)
+	(wire
+		(pts
+			(xy 153.67 135.89) (xy 153.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381b58c7-62aa-4405-a033-8f41ef78134a")
 	)
 	(wire
 		(pts
@@ -2450,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 142.24) (xy 82.55 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511d6815-06af-4b45-88bf-c4b65c2b7ac8")
+	)
+	(wire
+		(pts
 			(xy 40.64 62.23) (xy 40.64 63.5)
 		)
 		(stroke
@@ -2480,6 +2851,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 180.34) (xy 109.22 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2da5fd-ad65-4873-9afb-9eaa5583bab7")
+	)
+	(wire
+		(pts
 			(xy 153.67 78.74) (xy 146.05 78.74)
 		)
 		(stroke
@@ -2487,6 +2868,76 @@
 			(type default)
 		)
 		(uuid "613a54b5-6cea-407c-b568-c1f723856279")
+	)
+	(wire
+		(pts
+			(xy 201.93 96.52) (xy 201.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1ddeed-2151-4db7-947f-9556896a9a2e")
+	)
+	(wire
+		(pts
+			(xy 109.22 177.8) (xy 109.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9a00a8-04c8-44ea-8899-9df1f789aa9a")
+	)
+	(wire
+		(pts
+			(xy 119.38 130.81) (xy 119.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b939ec1-5a82-47bd-ac4c-b8e61ca1c949")
+	)
+	(wire
+		(pts
+			(xy 82.55 137.16) (xy 82.55 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd13850-ce43-415e-939d-a36cb223bd3f")
+	)
+	(wire
+		(pts
+			(xy 153.67 130.81) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc19c5b-e4f7-452c-9de5-6984c1efc64c")
+	)
+	(wire
+		(pts
+			(xy 119.38 144.78) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e15fa5-2c28-4568-bef1-8f4416738f1a")
+	)
+	(wire
+		(pts
+			(xy 82.55 139.7) (xy 82.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782b82ff-5df8-4a29-a34c-f7d23786aca8")
 	)
 	(wire
 		(pts
@@ -2530,6 +2981,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 172.72) (xy 109.22 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92eb4152-a48f-46d5-af85-e20a256b6a41")
+	)
+	(wire
+		(pts
 			(xy 43.18 69.85) (xy 45.72 69.85)
 		)
 		(stroke
@@ -2560,6 +3021,36 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 133.35) (xy 153.67 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b76443-616a-423a-a552-f9e96816c5cb")
+	)
+	(wire
+		(pts
+			(xy 195.58 96.52) (xy 201.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44d1f2b-1aae-4095-89ef-7e0911916107")
+	)
+	(wire
+		(pts
+			(xy 48.26 134.62) (xy 48.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b774e313-0f5d-4442-ba2c-b4a004998516")
+	)
+	(wire
+		(pts
 			(xy 137.16 68.58) (xy 137.16 69.85)
 		)
 		(stroke
@@ -2570,6 +3061,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 172.72) (xy 74.93 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd917d8f-feb7-45be-81d5-911ee8236926")
+	)
+	(wire
+		(pts
+			(xy 74.93 186.69) (xy 74.93 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda81261-41e4-4318-815c-3c716e18904e")
+	)
+	(wire
+		(pts
 			(xy 45.72 63.5) (xy 45.72 62.23)
 		)
 		(stroke
@@ -2577,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "debb1ce8-6b6b-4d7a-ac32-af7e794fcda5")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 109.22 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00c99a1-d57d-4fae-ae28-1525cc470e6e")
 	)
 	(wire
 		(pts
@@ -2627,6 +3148,170 @@
 			(type default)
 		)
 		(uuid "fc0aa57a-9391-4d77-95d6-060a2555b9a1")
+	)
+	(wire
+		(pts
+			(xy 82.55 134.62) (xy 82.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7354be-5641-4ae1-9f79-d97d215acf89")
+	)
+	(global_label "ADC_IN_1"
+		(shape input)
+		(at 162.56 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d2869b7-de22-4828-8e20-8e2de0196987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.2538 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_IN_3"
+		(shape input)
+		(at 74.93 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "530b7cc3-3fb1-421f-8d41-c0157cf6a9cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2362 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_IN_2"
+		(shape input)
+		(at 107.95 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95471dec-093c-4638-8ff4-844aa159102d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.6438 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_IN_1"
+		(shape input)
+		(at 119.38 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e0620c0-afc5-4fcd-a5c3-7f6bed500157")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.6862 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_IN_2"
+		(shape input)
+		(at 48.26 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a41e550e-2d6c-4803-bca2-d67795a99d04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.5662 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_IN_1"
+		(shape input)
+		(at 107.95 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afe97d04-ae2e-4202-9df5-e9ce06611860")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.6438 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_IN_3"
+		(shape input)
+		(at 107.95 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b53867b8-9635-4074-a7e4-b03e2271bc89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.6438 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2689,6 +3374,72 @@
 			(project ""
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 246.38 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a6b8c46-c5a6-4e7f-a728-c1e5eabaf8c1")
+		(property "Reference" "#PWR013"
+			(at 246.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 246.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7817e027-a2fe-4fbb-9c0c-fb7125e29e37")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2838,17 +3589,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 246.38 110.49 0)
+		(lib_id "power:+3.3V")
+		(at 158.75 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17d6e2b0-c846-40cb-8bb8-9f7eab3385fe")
-		(property "Reference" "#PWR013"
-			(at 246.38 113.03 0)
+		(uuid "119c9097-4a50-4eaa-a467-5b96b66441fe")
+		(property "Reference" "#PWR014"
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,8 +3607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VDC"
-			(at 246.38 102.87 0)
+		(property "Value" "+3.3V"
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 110.49 0)
+			(at 158.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +3625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 110.49 0)
+			(at 158.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,8 +3633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 246.38 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,12 +3643,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cca44b5-da62-4083-a070-5080882f0634")
+			(uuid "cb5a0629-817c-48c8-88ed-99a5fc467efb")
 		)
 		(instances
 			(project "busy-box"
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
-					(reference "#PWR013")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1504c9aa-296e-4e6e-9d2c-8c0776cb9599")
+		(property "Reference" "#PWR016"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba744a7-5b46-4b4e-8c20-10b28122a474")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3098,6 +3915,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 48.26 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0df2be-b307-4c74-9cc6-eb8cfde3ac89")
+		(property "Reference" "#PWR020"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81a5654-bc9f-409e-8db9-20f1877d5ce9")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 234.95 124.46 90)
 		(unit 1)
@@ -3162,6 +4045,138 @@
 			(project "busy-box"
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e3c2a8-0e38-4ca2-a06b-9febac9904cb")
+		(property "Reference" "#PWR018"
+			(at 153.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167c6458-1079-42c9-8249-5e4038d0e7bc")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "431d6b0e-28cb-482a-8e52-2b63d62102d4")
+		(property "Reference" "#PWR015"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "071e904d-b827-4a2d-a9bc-cdfab07e955b")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3303,6 +4318,72 @@
 			(project ""
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "572f311a-b256-4a64-aa4d-1f4c6fc3d5cc")
+		(property "Reference" "#PWR025"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301a2f48-ccd9-41ac-9204-b561b888bcbf")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3581,6 +4662,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69975fe6-c6a2-46f3-9ca4-81b048f0e59b")
+		(property "Reference" "#PWR024"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e08f65b-591c-42f1-b595-2f7e20aa4402")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 161.29 66.04 0)
 		(unit 1)
@@ -3649,12 +4796,12 @@
 	(symbol
 		(lib_id "Device:LED_KRGB")
 		(at 190.5 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74214b59-ce9c-4fd5-97a1-34b94a442fd4")
 		(property "Reference" "D1"
 			(at 190.5 82.55 0)
@@ -3992,17 +5139,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 234.95 110.49 0)
+		(lib_id "power:+3.3V")
+		(at 223.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1190e9d-0c08-4be7-9d39-87df3bfaf041")
-		(property "Reference" "#PWR012"
-			(at 234.95 113.03 0)
+		(uuid "841f3328-75bf-44c2-af03-5c52933de515")
+		(property "Reference" "#PWR011"
+			(at 223.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,8 +5157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VDC"
-			(at 234.95 102.87 0)
+		(property "Value" "+3.3V"
+			(at 223.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +5166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 110.49 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +5175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 110.49 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,8 +5183,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 234.95 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,12 +5193,348 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a208634-babb-4f1d-bf9a-6012a8bb4332")
+			(uuid "87e228f8-8423-4a99-aa80-70d36996e243")
 		)
 		(instances
 			(project "busy-box"
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
-					(reference "#PWR012")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 119.38 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "887bcb77-e365-4e1e-86b4-5a2500c0e94e")
+		(property "Reference" "#PWR017"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e720bd00-1269-414c-9a8b-b32249c56a34")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99191024-428d-4634-8ee3-d59925388408")
+		(property "Reference" "#PWR023"
+			(at 74.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e8bdb35-2a8f-495f-a286-eee190e7a334")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 48.26 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a006412f-3e1f-4117-9531-98d2bbf60298")
+		(property "Reference" "#PWR019"
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36d41589-fd9a-4c20-a8d9-1b525fe83ace")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rhinocerose-interface:Alps-Slide-Potentiometer-60mm-RS6011SP6003")
+		(at 74.93 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a17303ff-4cdb-462d-b57b-160f67531afc")
+		(property "Reference" "VR3"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Alps-Slide-Potentiometer-60mm-RS6011SP6003"
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhinocerose-pots:Alps-Slide-Pot-60mm-RS6011SP6003"
+			(at 124.46 270.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RS6011P-1524911.pdf"
+			(at 124.46 370.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometers Single Unit, 60mm Vertical Type"
+			(at 74.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at 124.46 570.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-RS6011SP6003"
+			(at 124.46 670.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS6011SP6003?qs=3cOf6TWd2rbyy41GF81woQ%3D%3D"
+			(at 124.46 770.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 124.46 870.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RS6011SP6003"
+			(at 124.46 970.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "670151d2-f2d0-45fa-81b8-d5b24726cfd2")
+		)
+		(pin "MH2"
+			(uuid "ae4f29ef-e89e-4d9d-a4e1-427cfe7c9dcf")
+		)
+		(pin "L2"
+			(uuid "00599901-a228-4ffb-9d09-f0e9c1ea0141")
+		)
+		(pin "L3"
+			(uuid "e0f9b013-79eb-48ea-a206-aaf8d7142770")
+		)
+		(pin "1"
+			(uuid "a8c02426-5e23-463e-a072-e0ecbfa518e3")
+		)
+		(pin "3"
+			(uuid "b94f2dfe-8637-4e79-b25b-866f1e709c20")
+		)
+		(pin "L1"
+			(uuid "5d3d6939-dc90-4be7-82ea-3f1b0124dbfc")
+		)
+		(pin "2"
+			(uuid "89894719-781b-47ca-bb8e-c4af00043f2a")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -4335,6 +5818,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 234.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25d0c29-aef9-448b-b0a0-1419fc7822ec")
+		(property "Reference" "#PWR012"
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80051f1c-14fe-4357-bb86-31df3eb151e3")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 87.63 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4400,17 +5949,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 223.52 110.49 0)
+		(lib_id "power:+3.3V")
+		(at 74.93 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "db94543f-643b-427f-9261-2ec380f08b1d")
-		(property "Reference" "#PWR011"
-			(at 223.52 113.03 0)
+		(uuid "da7bb52c-600e-45e3-b9d1-c40024883719")
+		(property "Reference" "#PWR022"
+			(at 74.93 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,8 +5967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VDC"
-			(at 223.52 102.87 0)
+		(property "Value" "+3.3V"
+			(at 74.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +5976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 110.49 0)
+			(at 74.93 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +5985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 110.49 0)
+			(at 74.93 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,8 +5993,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 223.52 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 74.93 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,12 +6003,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8048ff84-2f58-4286-99db-01cbee767333")
+			(uuid "9272a252-7403-4262-8caa-92828e85075a")
 		)
 		(instances
 			(project "busy-box"
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4526,6 +6075,72 @@
 			(project "busy-box"
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df853035-7ebe-4803-af26-60caeb1064c3")
+		(property "Reference" "#PWR021"
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d84fb2d-8a35-4cf9-940f-d8322e8f6314")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4671,6 +6286,144 @@
 		)
 	)
 	(symbol
+		(lib_id "rhinocerose-interface:Alps-Slide-Potentiometer-60mm-RS6011SP6003")
+		(at 119.38 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f31a74fa-1014-42f4-8ccf-83a08e3cff63")
+		(property "Reference" "VR1"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Alps-Slide-Potentiometer-60mm-RS6011SP6003"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhinocerose-pots:Alps-Slide-Pot-60mm-RS6011SP6003"
+			(at 168.91 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RS6011P-1524911.pdf"
+			(at 168.91 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometers Single Unit, 60mm Vertical Type"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at 168.91 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-RS6011SP6003"
+			(at 168.91 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS6011SP6003?qs=3cOf6TWd2rbyy41GF81woQ%3D%3D"
+			(at 168.91 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 168.91 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RS6011SP6003"
+			(at 168.91 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "5ad99eac-1b87-45e7-bd71-a7f50422c83d")
+		)
+		(pin "MH2"
+			(uuid "ddb4c6e9-18ad-4e45-a5ec-d7edfc94d7f9")
+		)
+		(pin "L2"
+			(uuid "67ca4511-7ab2-4ee1-928d-802570490769")
+		)
+		(pin "L3"
+			(uuid "e84dc9e9-67f0-4f43-8102-8afec14481f0")
+		)
+		(pin "1"
+			(uuid "90a748ea-1bb4-4e5e-ab7a-878ab36046f3")
+		)
+		(pin "3"
+			(uuid "debaec0f-e82f-4585-a875-4b8ab2d2d7c9")
+		)
+		(pin "L1"
+			(uuid "032ddfd1-4b65-4561-ace3-cb5b7740424c")
+		)
+		(pin "2"
+			(uuid "4cac5909-e7c0-4235-ab14-9216f0c2f853")
+		)
+		(instances
+			(project ""
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 40.64 66.04 0)
 		(unit 1)
@@ -4800,6 +6553,144 @@
 			(project "busy-box"
 				(path "/d6527277-4f40-4d66-9bc7-849904617095"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rhinocerose-interface:Alps-Slide-Potentiometer-60mm-RS6011SP6003")
+		(at 48.26 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8c0a2d7-360e-437e-9f57-464cb22f6c85")
+		(property "Reference" "VR2"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Alps-Slide-Potentiometer-60mm-RS6011SP6003"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhinocerose-pots:Alps-Slide-Pot-60mm-RS6011SP6003"
+			(at 97.79 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RS6011P-1524911.pdf"
+			(at 97.79 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometers Single Unit, 60mm Vertical Type"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at 97.79 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-RS6011SP6003"
+			(at 97.79 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS6011SP6003?qs=3cOf6TWd2rbyy41GF81woQ%3D%3D"
+			(at 97.79 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 97.79 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RS6011SP6003"
+			(at 97.79 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "85168e22-01aa-43d1-9df0-64f74f3743e3")
+		)
+		(pin "MH2"
+			(uuid "3ea041ce-53df-414c-bc62-81da6494b3ce")
+		)
+		(pin "L2"
+			(uuid "94bebe59-8aea-46da-b5cc-c05bdbf934bd")
+		)
+		(pin "L3"
+			(uuid "0c2c714f-900f-42fb-9cc2-c6b56f8cb6fd")
+		)
+		(pin "1"
+			(uuid "e459ed73-5dcc-4dfd-922e-06acbb948207")
+		)
+		(pin "3"
+			(uuid "d3ab4428-d800-43ae-80b5-275015bb9116")
+		)
+		(pin "L1"
+			(uuid "82b75ccf-d53d-48ad-9d5d-0c49f08b9df0")
+		)
+		(pin "2"
+			(uuid "5668ab7e-0e9e-4a1f-842c-345018b62ac9")
+		)
+		(instances
+			(project "busy-box"
+				(path "/d6527277-4f40-4d66-9bc7-849904617095"
+					(reference "VR2")
 					(unit 1)
 				)
 			)
